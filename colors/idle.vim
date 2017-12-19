@@ -2,7 +2,7 @@
 " Version:      1.0
 " Last Change:  February, 2016
 " Credits:      This is a bastardization of 'beekai' by Stephane Demotte.
-"               http://vimcolors.com/226/beekai/dark   
+"               http://vimcolors.com/226/beekai/dark
 
 set background=dark
 
@@ -28,7 +28,7 @@ endif
 hi Cursor          guifg=NONE    guibg=#626262 gui=none ctermbg=241
 hi Normal          guifg=#d0d0d0 guibg=#000000 gui=none ctermfg=015 ctermbg=232
 hi NonText         guifg=#808080 guibg=#262626 gui=none ctermfg=244 ctermbg=235
-hi LineNr          guifg=#ffffff gui=bold guibg=#444444 gui=none ctermfg=075 ctermbg=238 cterm=bold
+hi LineNr          guifg=#00ffff gui=bold guibg=#1c1c1c gui=none ctermfg=014 ctermbg=234 cterm=bold
 hi StatusLine      guifg=#dadada guibg=#444444 gui=none ctermfg=253 ctermbg=238
 hi StatusLineNC    guifg=#949494 guibg=#444444 gui=none ctermfg=246 ctermbg=238
 hi VertSplit       guifg=#444444 guibg=#303030 gui=none ctermfg=238 ctermbg=238
@@ -38,7 +38,7 @@ hi Visual          guibg=#575b61 gui=none ctermbg=241 cterm=NONE
 hi SpecialKey      guifg=#808080 guibg=#303030 gui=none ctermfg=244 ctermbg=236
 
 " Syntax highlighting
-hi Comment         guifg=#444444 gui=italic ctermfg=196  
+hi Comment         guifg=#444444 gui=italic ctermfg=196
 hi Todo            guifg=#8a8a8a gui=none ctermfg=245
 hi Boolean         guifg=#ff00ff gui=bold ctermfg=013 cterm=bold
 hi String          guifg=#ff00ff gui=bold ctermfg=013 cterm=bold
