@@ -20,7 +20,7 @@ if version >= 700
   hi CursorLine    guibg=NONE ctermbg=NONE
   hi CursorColumn  guibg=#111111 ctermbg=234
   hi MatchParen    guifg=#d0ffc0 guibg=#111111 gui=bold ctermfg=157 ctermbg=237 cterm=bold
-  hi Pmenu         guifg=#5fffff gui=bold guibg=#111111 ctermfg=087 ctermbg=238 cterm=bold
+  hi Pmenu         guifg=#ff00ff gui=bold guibg=#111111 ctermfg=013 ctermbg=238 cterm=bold
   hi PmenuSel      guifg=#000000 gui=bold guibg=#d3ff3b ctermfg=000 ctermbg=148 cterm=bold
 endif
 
