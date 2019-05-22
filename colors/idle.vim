@@ -26,8 +26,8 @@ endif
 
 " General colors
 hi Cursor          guifg=NONE    guibg=#626262 gui=none ctermbg=241
-hi Normal          guifg=#d0d0d0 guibg=#000000 gui=none ctermfg=015 ctermbg=232
-hi NonText         guifg=#808080 guibg=#262626 gui=none ctermfg=244 ctermbg=235
+hi Normal          guifg=#d0d0d0 guibg=#080808 gui=none ctermfg=015 ctermbg=232
+hi NonText         guifg=#808080 guibg=#080808 gui=none ctermfg=244 ctermbg=232
 hi LineNr          guifg=#585858 gui=bold guibg=#1c1c1c gui=none ctermfg=240 ctermbg=234 cterm=bold
 hi StatusLine      guifg=#dadada guibg=#444444 gui=none ctermfg=253 ctermbg=238
 hi StatusLineNC    guifg=#949494 guibg=#444444 gui=none ctermfg=246 ctermbg=238
@@ -38,13 +38,13 @@ hi Visual          guibg=#575b61 gui=none ctermbg=241 cterm=NONE
 hi SpecialKey      guifg=#808080 guibg=#303030 gui=none ctermfg=244 ctermbg=236
 
 " Syntax highlighting
-hi Comment         guifg=#444444 gui=italic ctermfg=196
+hi Comment         guifg=#4e4e4e gui=italic ctermfg=239
 hi Todo            guifg=#8a8a8a gui=none ctermfg=245
 hi Boolean         guifg=#ff00ff gui=bold ctermfg=013 cterm=bold
 hi String          guifg=#ff00ff gui=bold ctermfg=013 cterm=bold
 hi Identifier      guifg=#8700ff gui=none ctermfg=093
 hi Function        guifg=#00afff gui=bold ctermfg=039 cterm=bold
-hi Type            guifg=#ffff00 gui=bold ctermfg=226 cterm=bold
+hi Type            guifg=#ffff00 gui=bold,italic ctermfg=226 cterm=bold,italic
 hi Statement       guifg=#ff0000 gui=bold ctermfg=196 cterm=bold
 hi Keyword         guifg=#ff0000 gui=bold ctermfg=196 cterm=bold
 hi Constant        guifg=#ff00ff gui=bold ctermfg=013 cterm=bold
